@@ -20,7 +20,7 @@ This project uses a **marketing campaign dataset** to perform **Exploratory Data
 ---
 
 ## 🛠️ Tech Stack  
-- **Python** 🐍  
+- **Python**   
 - **Pandas, NumPy** – Data Manipulation  
 - **Matplotlib, Seaborn, Plotly** – Data Visualization  
 - **Scikit-learn** – Machine Learning  
@@ -29,7 +29,7 @@ This project uses a **marketing campaign dataset** to perform **Exploratory Data
 ---
 
 ## 📂 Dataset  
-The dataset used is `marketing_campaign_clean.csv`, which includes features such as:  
+The dataset used is `marketing_campaign.csv`, which includes features such as:  
 
 - **Demographics**: Age, Education, Marital Status, Income  
 - **Spending Behavior**: Spending on Wines, Fruits, Meat, Fish, Sweet Products, Gold Products  
