@@ -1,42 +1,56 @@
-**Dataset**
+# Customer Personality Analysis  
 
-Source: Kaggle - Customer Personality Analysis
-Cleaned file: marketing_campaign_clean.csv
+## 📌 Project Overview  
+Customer Personality Analysis is a project that helps businesses understand their customers better. By analyzing purchasing behavior, demographics, and engagement patterns, companies can segment customers into groups and design targeted marketing strategies.  
 
-**Key Features:**
+This project uses a **marketing campaign dataset** to perform **Exploratory Data Analysis (EDA)**, **feature engineering**, and **machine learning modeling** for customer segmentation and prediction.  
 
-**Demographics**: Age, Education, Marital Status, Income, Kids, Teens
-**Spending**: Amount spent on Wines, Fruits, Meat, Fish, Sweets, Gold
-**Campaign Response**: Response (Target variable: 1 = Accepted, 0 = Not Accepted)
-**Other Behavior**: Recency (days since last purchase), Web Purchases, Store Purchases, etc.
+---
 
-** Project Workflow**
-**Data Cleaning**
- Handle missing values in Income
- Create Age and TotalSpend features
- Drop irrelevant columns
-**Exploratory Data Analysis (EDA)**
- Distributions of income, age, and spending
- Correlation between features and campaign response
-**Feature Engineering**
- Standardize numeric features
- One-hot encode categorical features
-**Modeling**
- Logistic Regression (baseline)
- Random Forest Classifier (improved performance)
-**Evaluation**
- Classification Report (Precision, Recall, F1-score)
- ROC-AUC Score
- ROC Curve & Precision-Recall Curve
- Confusion Matrix
- Feature Importance (Random Forest)
+## 🚀 Features  
+- Data Cleaning & Preprocessing  
+- Feature Engineering (Age, Total Spend, Customer Segmentation)  
+- Exploratory Data Analysis (EDA) with Visualizations  
+- Machine Learning Models:  
+  - Logistic Regression  
+  - Random Forest  
+  - Clustering (KMeans)  
+- Model Evaluation (Accuracy, Precision, Recall, F1-Score)  
 
-**  Results**
+---
 
-**Logistic Regression:** Provides a baseline with interpretability.
-**Random Forest:** Delivers higher accuracy & ROC-AUC.
-**Top Predictors:**
- Income
- Age
- TotalSpend (especially Wines & Gold)
- Web Purchases
+## 🛠️ Tech Stack  
+- **Python** 🐍  
+- **Pandas, NumPy** – Data Manipulation  
+- **Matplotlib, Seaborn, Plotly** – Data Visualization  
+- **Scikit-learn** – Machine Learning  
+- **Jupyter Notebook** – Interactive Development  
+
+---
+
+## 📂 Dataset  
+The dataset used is `marketing_campaign_clean.csv`, which includes features such as:  
+
+- **Demographics**: Age, Education, Marital Status, Income  
+- **Spending Behavior**: Spending on Wines, Fruits, Meat, Fish, Sweet Products, Gold Products  
+- **Engagement**: Web Visits, Campaign Acceptance, Complaints  
+- **Derived Features**: Age, Total Spend  
+
+---
+
+## 📊 Analysis Performed  
+1. Data Cleaning & Feature Engineering  
+2. Visualization of Customer Segments  
+3. Classification using Logistic Regression & Random Forest  
+4. Clustering using KMeans for customer segmentation  
+5. Insights for Marketing Strategy  
+
+---
+
+## 📈 Results & Insights  
+- Customers with higher income and middle-aged groups spend more on luxury items (wine, gold).  
+- Web engagement does not always translate to campaign acceptance.  
+- Random Forest outperformed Logistic Regression in predicting customer response.  
+- Clustering revealed distinct groups (high spenders, budget shoppers, family-oriented customers).  
+
+---
